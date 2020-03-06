@@ -1,11 +1,24 @@
 body {
   font-family: 'Raleway', sans-serif;
-    background-color: #F0F8FF;
 }
 
 html {
   position: relative;
   min-height: 100%;
+}
+
+.jumbotron {
+  background-color: white !important;
+}
+
+img {
+  margin: 0 auto !important; /* Added */
+  float: none !important;
+  margin-bottom: 1rem !important;
+}
+
+.two-card {
+  
 }
 
 main {
@@ -36,7 +49,6 @@ main {
 }
 
 .navbar {
-  background: #F0F8FF !important;
   border: none;
 }
 

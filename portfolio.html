@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio | Blaser Barn Doors</title>
+  <title>Home | Blaser Barn Doors</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/styles.css" media="screen">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
@@ -14,6 +14,8 @@
 </head>
 
 <body>
+
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="index.html" id="logo"><img src="./assets/imgs/bbd-logo2.png"
@@ -24,62 +26,82 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
           <li class="nav-item">
             <a class="nav-link" href="index.html">home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">our services</a>
-          </li>
+
+          <div class="dropdown nav-item">
+            <button class="btn dropdown-toggle ml-0 pl-0"
+              style="background-color: white !important; color: rgba(0,0,0,.5);" type="button" id="dropdownMenu2"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              our services
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <a href="barnDoors.html"><button class="dropdown-item" type="button">barn doors</button></a>
+              <a href="tables.html"><button class="dropdown-item" type="button">tables</button></a>
+            </div>
+          </div>
+
           <li class="nav-item active">
             <a class="nav-link" href="portfolio.html">gallery</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="contact.html">contact</a>
           </li>
+
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- images -->
-  <div class="container" style="text-align: center;">
-    <h1>Gallery</h1>
-    <br>
-    <div class="row">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door4.jpg" alt="door 4">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door3.jpg" alt=" door 3">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/table3.jpg" alt="table 3">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door2.jpg" alt="door 2">
-    </div>
-
-    <div class="row">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door4.jpg" alt="door 4">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door3.jpg" alt=" door 3">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/table3.jpg" alt="table 3">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door2.jpg" alt="door 2">
-    </div>
-
-    <div class="row">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door4.jpg" alt="door 4">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door3.jpg" alt=" door 3">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/table3.jpg" alt="table 3">
-      <img class="shadow rounded" style="width: 16rem; height: 25rem; margin-left: 1.3rem; margin-top: 1rem;"
-        src="./assets/imgs/door2.jpg" alt="door 2">
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid text-center home-jumbo">
+    <div class="container">
+      <h1 class="display-4">Custom Built Barn Doors and Tables</h1>
+      <p class="lead">Make your home that dreamy modern chic you have always wanted.</p>
     </div>
   </div>
-  <br>
 
+  <!-- carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./assets/imgs/bb8.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/imgs/bb1.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/imgs/bb5.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/imgs/bb4.jpg" alt="Fourth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/imgs/bb10.jpg" alt="Fifth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/imgs/bb7.jpg" alt="Sixth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/imgs/wedding_table.jpg" alt="Seventh slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <br>
+  <br>
+  <br>
 
   <!-- footer -->
   <footer>
@@ -100,9 +122,10 @@
     </div>
   </footer>
 
+  <!-- script tags -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  </script>
+
 
 </body>
 

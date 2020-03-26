@@ -26,18 +26,30 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
           <li class="nav-item active">
             <a class="nav-link" href="index.html">home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">our services</a>
-          </li>
+
+          <div class="dropdown nav-item">
+            <button class="btn dropdown-toggle ml-0 pl-0" style="background-color: white !important; color: rgba(0,0,0,.5);" type="button"
+              id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              our services
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <a href="barnDoors.html"><button class="dropdown-item" type="button">barn doors</button></a>
+              <a href="tables.html"><button class="dropdown-item" type="button">tables</button></a>
+            </div>
+          </div>
+
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">gallery</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="contact.html">contact</a>
           </li>
+
         </ul>
       </div>
     </div>
@@ -47,7 +59,7 @@
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/imgs/bannerhome.png" class="d-block w-100" alt="...">
+        <img src="./assets/imgs/bannerhome.png" class="d-block w-100" alt="banner">
       </div>
     </div>
   </div>
@@ -74,7 +86,7 @@
         src="./assets/imgs/door2.jpg" alt="door 2">
     </div>
     <br>
-    <a class="btn btn-dark" href="portfolio.html">View Gallery</a>
+    <a class="btn btn-dark" href="portfolio.html">View Gallery >></a>
     <br>
     ​
     <!-- jumbotron -->
@@ -112,7 +124,7 @@
         </div>
       </div>
     </div>
-    <a class="btn btn-dark m-5" href="services.html">View Services</a>
+    <a class="btn btn-dark m-5" href="services.html">View Services >></a>
 
     <!-- contact us banner -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
